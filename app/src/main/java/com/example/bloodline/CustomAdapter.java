@@ -35,7 +35,7 @@ public class CustomAdapter extends ArrayAdapter<Donor> {
 
         t1.setText("Blood Group : "+donor.getBloodgroup());
         t2.setText("Location : "+donor.getLocation());
-        t2.setText("Phone Number : "+donor.getPhonenumber());
+        t3.setText("Phone Number : "+donor.getPhonenumber());
 
 
         return view;
